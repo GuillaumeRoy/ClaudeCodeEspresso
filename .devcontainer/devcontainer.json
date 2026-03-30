@@ -1,0 +1,12 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/python:3.12",
+  "postCreateCommand": "bash .devcontainer/post-create.sh",
+  "mounts": [
+    "source=claude-auth,target=/home/vscode/.claude,type=volume"
+  ],
+  "customizations": {
+    "vscode": {
+      "extensions": ["anthropic.claude-code"]
+    }
+  }
+}
