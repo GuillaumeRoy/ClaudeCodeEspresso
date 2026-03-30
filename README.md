@@ -21,6 +21,15 @@ Your browser
 │               └── Your project (files, code, anything you build)
 ```
 
+### What are these things?
+                                               
+If you've never seen these tools before, here's what they are in plain English:
+
+- **GitHub** — think of it as a file folder in the cloud, but with detailed tracking of every change: what changed, when, and by whom. Your code lives here.
+- **GitHub Codespace** — a virtual computer that runs in the cloud. It's not your computer — it's a temporary machine GitHub creates for you. You use it through your browser, and you can delete it when you're done.
+- **VS Code** — the code editor that opens inside the Codespace. It looks like an airplane cockpit — a million buttons, panels, and menus. But at its core, it's just a view on your files and folders with tools to edit them. As long as you know where the terminal is (bottom of the screen) and how to open a file (click it on the left), you're fine.
+- **Claude Code** — the AI assistant that lives inside the terminal. You type what you want in plain English, and it writes code, creates files, runs commands, and explains what it's doing
+
 ---
 
 ## Prerequisites
