@@ -48,20 +48,20 @@ If you already have a Claude Pro (or Team/Enterprise) subscription, skip to Step
 2. Subscribe to **Claude Pro** ($20/month) from the settings page
 3. This gives you access to Claude Code, which is what powers the AI assistant in this environment
 
-## Step 3: Fork this repo (make your own copy)
-
-You need your own copy of this repo so you can save your work. This is called "forking."
+## Step 3: Use this template (make your own private copy)
 
 1. Make sure you're signed in to GitHub
-2. Navigate to this repository's page on GitHub
-3. Click the **Fork** button near the top right of the page
-4. On the next screen, click **Create fork** (leave all defaults as-is)
+2. Click the green **Use this template** button at the top of this page
+3. Select **Create a new repository**
+4. Give it any name you like (e.g. `my-claude-playground`)
+5. ⚠️ **Set the repository to Private** — this ensures anything you build or commit is only visible to you
+6. Click **Create repository**
+                                                                                                                      
+You now have your own private copy under your GitHub account. The rest of the steps happen from **your new repo**.
 
-You now have your own copy of this repo under your GitHub account. The rest of the steps happen from **your fork**.
+## Step 4: Open your repo in a Codespace
 
-## Step 4: Open your fork in a Codespace
-
-1. From your forked repo page, click the green **Code** button
+1. From your new repo page, click the green **Code** button
 2. Select the **Codespaces** tab
 3. Click **Create codespace on main**
 
@@ -120,6 +120,26 @@ New to these tools? These beginner-friendly guides will help:
 - [Claude Code overview](https://docs.anthropic.com/en/docs/claude-code/overview) — what Claude Code is and what it can do
 - [Claude Code quickstart](https://docs.anthropic.com/en/docs/claude-code/quickstart) — getting started guide
 - [Claude Code tutorials](https://docs.anthropic.com/en/docs/claude-code/tutorials) — practical walkthroughs for common tasks
+
+---
+
+## ⚠️  Disclaimer
+
+**This project is provided as-is, with absolutely no warranty or guarantee of any kind.**                                        
+   
+This template is designed for use inside a **disposable GitHub Codespace** — a temporary cloud environment that is isolated from your computer. Within that narrow use case, it is reasonably safe: nothing touches your local machine, and deleting the Codespace wipes everything.
+
+**However, you can easily make this dangerous:**
+- **Running this outside a Codespace** (e.g., cloning to your local machine) gives Claude Code bypass-permissions access to your actual computer and files.
+- **Storing sensitive information** (API keys, passwords, personal data) inside the Codespace means Claude can read, modify, or expose it without prompting you.
+- **Leaving your repository public** means anything you commit — code, credentials, personal files — is visible to the entire internet.
+- **Extending this template** with additional tools, mounts, or permissions can introduce risks that are not covered by this setup.
+
+Claude Code runs in **bypass-permissions mode** ("YOLO mode"), which means it executes all commands — including file creation, deletion, and shell commands — **without asking for confirmation**. This is a deliberate trade-off for a frictionless beginner experience, but it means there is no safety net if something goes wrong.
+
+**You are solely responsible for how you use this template and anything that results from it.** The author assumes no liability for data loss, security incidents, or any other consequences.
+
+See [LICENSE](LICENSE) for full terms.
 
 ---
 
