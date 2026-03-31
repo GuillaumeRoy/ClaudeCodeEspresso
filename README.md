@@ -6,7 +6,7 @@ A tiny shot that gets you coding with AI — no experience required.
 
 ### What you get
 
-- **Zero setup** — one click opens a full coding environment in the cloud (GitHub Codespaces). Nothing is installed on your computer.
+- **Zero setup** — opens a full coding environment in the cloud (GitHub Codespaces). Nothing is installed on your computer.
 - **Full permissions ("YOLO mode")** — Claude acts immediately on your requests, no approval prompts to slow you down. The worst that can happen is you break this sandbox — your computer is never touched.
 - **Built-in hand-holding** — Claude is pre-configured ([CLAUDE.md](CLAUDE.md)) to assume you're a beginner: it explains every step, defines jargon, and suggests what to try next
 
