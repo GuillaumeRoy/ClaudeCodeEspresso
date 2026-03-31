@@ -83,7 +83,7 @@ A new browser tab will open with VS Code running in your browser. Wait for the e
 1. In the VS Code terminal at the bottom of the screen, type `claude` and press Enter
 2. Claude Code will print a URL and ask you to authenticate
 
-> **IMPORTANT — Read this before clicking anything:**
+> 🚨 **IMPORTANT — Read this before clicking anything:**
 >
 > **Do NOT click the authentication link directly.** The link redirects to `localhost`, which won't work inside a Codespace. Instead:
 >
